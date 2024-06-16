@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Two Column Layout</title>
+
+        <link rel="stylesheet" href="web.css">
+      
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="column column-25">
+        <!-- Content for the 25% column -->
+        <div class="logos">
+          <center>
+            <img
+              src="CHIRAG.png"
+              alt="Profile"
+              width="150px"
+              height="150px"
+              style="border-radius: 50%;"
+            />
+            <h2 style="color: white">Chirag Goyal</h2>
+            <img src="twitter_logo.webp" class="Logo" alt="Twitter Logo" />
+            <img
+              src="Facebook_logo_updated.png"
+              class="Logo"
+              alt="Facebook Logo"
+            />
+            <img src="Git_logo.webp" class="Logo" alt="GitHub Logo" />
+            <img
+              src="Linkedin_logo_updated.png"
+              class="Logo"
+              alt="LinkedIn Logo"
+            />
+            <img
+              src="Instragram_logo_updated.jpg"
+              class="Logo"
+              alt="Instagram Logo"
+            />
+          </center>
+        </div>
+        <div class="features">
+          <ul>
+            <li class="option">
+              <a href="#Home" style="text-decoration: none;"><img src="Home_logo.png" class="features_logo" alt="Home Logo" />
+                <h3>Home</h3></a>
+            </li>
+            <li class="option">
+              <a href="#About" style="text-decoration: none;">
+                <img
+                src="About_logo.jpeg"
+                class="features_logo"
+                alt="About Logo"
+              />
+              <h3>About</h3>
+              </a>
+            </li>
+            <li class="option">
+             <a href="#Resume" style="text-decoration: none;"> <img
+                src="document_logo.jpg"
+                class="features_logo"
+                alt="Resume Logo"
+              />
+              <h3>Resume</h3></a>
+            </li>
+            <li class="option">
+              <a href="#Services" style="text-decoration: none;"><img
+                src="Services_logo.png"
+                class="features_logo"
+                alt="Services Logo"
+              />
+              <h3>Services</h3></a>
+            </li>
+            <li class="option">
+              <a href="#Contact" style="text-decoration: none;"><img src="Mail.jpg" class="features_logo" alt="Contact Logo" />
+                <h3>Contact</h3></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="column column-75">
+        <!-- Content for the 75% column -->
+        <img
+          src="BP.jpeg"
+          alt="Background"
+          style="width: 100%; height: 100%; object-fit: cover"
+        />
+        <h1 class="image_text">Chirag Goyal</h1>
+        <p class="interval" id="interval_text"></p>
+        <div class="about" style="padding: 20px">
+          <div>
+            <h2 id="About">About</h2>
+            <hr class="line" />
+            <p class="about_text">
+              Hello everybody, I'm Chirag, a passionate and versatile developer
+              with expertise in both web and Android development. With a strong
+              foundation in programming and a keen eye for design, I create
+              seamless, user-friendly applications that meet modern standards
+              and user expectations.
+            </p>
+          </div>
+          <div>
+            <div>
+              <img
+                src="CHIRAG.png"
+                alt="Profile Image"
+                width="400px"
+                height="300px"
+                style="float: left; border-radius: 10%;"
+                
+              />
+            </div>
+            <div style="margin-left: 30px">
+              <h2>Web Developer, Android Developer & UI/UX Designer</h2>
+              <p class="about_text" style="padding: 15px">
+                I'm a highly motivated and dedicated developer with a strong
+                passion for creating innovative and user-friendly applications.
+                I have a strong foundation in programming languages such as
+                Java, Python, JavaScript, and HTML/CSS.
+              </p>
+              <div style="overflow: auto">
+                <div style="float: left; padding: 20px">
+                  <p>
+                    <span class="Personal">></span><b>Birthday:</b> 1 May 2003
+                  </p>
+                  <p>
+                    <span class="Personal">></span
+                    ><b>Website:</b> www.justPlanner.com
+                  </p>
+                  <p>
+                    <span class="Personal">></span><b>Phone:</b> +91 7017606546
+                  </p>
+                  <p><span class="Personal">></span><b>City:</b> Punjab</p>
+                </div>
+                <div style="float: right; padding: 10px">
+                  <p><span class="Personal">></span><b>Age:</b> 21</p>
+                  <p><span class="Personal">></span><b>Degree:</b> Masters</p>
+                  <p>
+                    <span class="Personal">></span
+                    ><b>Email:</b> chiraggoyal0105@gmail.com
+                  </p>
+                  <p>
+                    <span class="Personal">></span><b>Freelance:</b> Available
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- New skills section outside of about -->
+        <div class="skills" style="padding: 20px">
+          <h2>Skills</h2>
+          <hr class="line" />
+          <div class="skill-item">
+            <h3>Web Development</h3>
+            <p>HTML, CSS, JavaScript, React</p>
+          </div>
+          <div class="skill-item">
+            <h3>Android Development</h3>
+            <p>Java, Kotlin</p>
+          </div>
+          <div class="skill-item">
+            <h3>UI/UX Design</h3>
+            <p>Adobe XD, Figma</p>
+          </div>
+          <!-- Add more skill items as needed -->
+        </div>
+        <div class="Resume" id="Resume" style="padding: 20px">
+          <h2>Resume</h2>
+          <hr class="line" />
+          <a href="Cv Template1.pdf" download>
+            <button class="download_button">Download Resume</button>
+          </a>
+        </div>
+        <div class="Services" id="Services" style="padding: 20px">
+          <h2>Services</h2>
+          <hr class="line" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error sunt
+            ducimus maxime esse officiis modi porro, veritatis ab aperiam
+            pariatur.
+          </p>
+          <div class="card" style="float: left; box-shadow: #333;">
+            <img src="S1.jpg" alt="Profile Photo" />
+            <div class="card-content">
+              <center>
+                <h2 style="font-size: 24px; margin-bottom: 10px">
+                  Web Developer
+                </h2>
+                <p style="font-size: 16px; color: #555">
+                  A passionate and dedicated professional with expertise in
+                  various field. Detail-oriented and committed to achieving
+                  excellence.
+                </p>
+              </center>
+            </div>
+          </div>
+          <div class="card" style="float: left">
+            <img src="S2.jpeg" alt="Profile Photo" />
+            <div class="card-content">
+              <center>
+                <h2 style="font-size: 24px; margin-bottom: 10px">
+                  Android Developer
+                </h2>
+                <p style="font-size: 16px; color: #555">
+                  A passionate and dedicated professional with expertise in
+                  various field. Detail-oriented and committed to achieving
+                  excellence.
+                </p>
+              </center>
+            </div>
+          </div>
+          <div class="card">
+            <img src="S3.jpeg" alt="Profile Photo" />
+            <div class="card-content">
+              <center>
+                <h2 style="font-size: 24px; margin-bottom: 10px">
+                  UI/UX Designer
+                </h2>
+                <p style="font-size: 16px; color: #555">
+                  A passionate and dedicated professional with expertise in
+                  various field. Detail-oriented and committed to achieving
+                  excellence.
+                </p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="contact" id="Contact" style="padding: 20px">
+          <div class="contact_details" style="float: left">
+            <h2>Contact</h2>
+            <hr class="line" />
+            <p>Get in touch with us for any query or feedback.</p>
+            <ul>
+              <li style="list-style: none">
+                <img
+                  src="location_logo.avif"
+                  alt
+                  width="50px"
+                  height="50px"
+                  style="border-radius: 50%; float: left; margin-right: 30px"
+                />
+                <h2>Address</h2>
+                <p>Prime PG, Law Gate, Punjab</p>
+                <p></p>
+              </li>
+
+              <li style="list-style: none">
+                <img
+                  src="Phone_call.jpg"
+                  alt
+                  width="50px"
+                  height="50px"
+                  style="border-radius: 50%; float: left; margin-right: 30px"
+                />
+                <h2>Call Us</h2>
+                <p>+91 7017606546</p>
+                <p></p>
+              </li>
+
+              <li style="list-style: none">
+                <img
+                  src="Mail.jpg"
+                  alt
+                  width="50px"
+                  height="50px"
+                  style="border-radius: 50%; float: left; margin-right: 30px"
+                />
+                <h2>Email Us</h2>
+                <p>chiraggoyal0105@gmail.com</p>
+                <p></p>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-form" style="float: right;">
+            <h2>Contact Form</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const texts = [
+        "Web Developer",
+        "Android Developer",
+        "UI/UX Designer",
+      ];
+
+      let currentIndex = 0;
+      const textElement = document.getElementById("interval_text");
+
+      function showNextText() {
+        textElement.innerText = texts[currentIndex];
+        currentIndex = (currentIndex + 1) % texts.length;
+      }
+
+      setInterval(showNextText, 3000); // Change text every 3 seconds
+    </script>
+  </body>
+</html>
