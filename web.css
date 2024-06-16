@@ -1,0 +1,241 @@
+body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        overflow: hidden; /* Prevent body scrolling */
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .container {
+        display: flex;
+        height: 100%;
+      }
+
+      .column {
+        padding: 20px;
+      }
+
+      .column-25 {
+        width: 20%;
+        background-color:black;
+        position: fixed; /* Fix the position of the 25% column */
+        height: 100%;
+        overflow: auto; /* Allow the 25% column to scroll if content overflows */
+        padding-left: -20px;
+      }
+
+      .column-75 {
+        width: 80%;
+        background-color: #ffffff;
+        margin-left: 20%; /* Add a margin equal to the width of the fixed column */
+        overflow-y: scroll; /* Enable vertical scrolling for the 75% column */
+        height: 100%;
+        position: relative;
+        padding: 0;
+      }
+      
+
+      .Logo {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px black solid;
+        margin-right: 5px;
+        padding: 5px;
+      }
+
+      .Logo:hover {
+        transform: scale(1.1);
+        border-color: aqua;
+        box-shadow: 2px 2px 5px rgb(51, 255, 255);
+      }
+
+      .features_logo {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        float: left;
+        margin-right: 10%;
+      }
+
+      .features_logo:hover {
+        transform: scale(1.1);
+        border: 1px solid aqua;
+      }
+
+      .option {
+        list-style: none;
+        margin-bottom: 20%;
+        margin-top: 20%;
+        color: grey;
+      }
+
+      .option:hover {
+        color: #00ffff;
+        text-shadow: 2px 2px 5px rgb(51, 255, 255);
+      }
+
+      .image_text {
+        position: absolute;
+        top: 50%;
+        right: 10%;
+        transform: translate(0%, -50%);
+        color: #990099;
+      }
+
+      .interval {
+        position: absolute;
+        top: 55%;
+        right: 10%;
+        color: #990099;
+      }
+
+      .Personal {
+        padding-right: 10px;
+        color: #b6b7de;
+      }
+
+      /* New styles for the skills section */
+      .skills {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #f3fafd;
+      }
+
+      .skills h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .skills .skill-item {
+        margin-bottom: 8px;
+      }
+
+      .skills h3 {
+        color: #555;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+
+      .skills p {
+        margin: 0;
+        color: #777;
+      }
+
+      .download_button {
+        background-color: #008cba; /* Blue background */
+    border: none;
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block;
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .download_button:hover{
+        background-color: #007ba4; /* Darker blue on hover */
+
+      }
+
+      .card {
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 8px 8px 8px 8px  rgba(0, 0, 0, 0.2);
+        margin-right: 30px;
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .card-content {
+        padding: 20px;
+      }
+      .line {
+        border: none;
+        height: 2px; /* Adjust the height of the line */
+        background-color:#149ddd; /* Change to your desired color */
+        width: 50px; /* Adjust the width of the line */
+        margin: 10px 0;
+      }
+      .contact-form {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 40%; /* Adjust width as needed */
+            float: right; /* Align form to the right */
+        }
+
+        .contact-form h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .contact-form .form-group {
+            margin-bottom: 15px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+        }
+
+        .submit-button {
+            background-color: #28a745; /* Green background */
+            border: none;
+            color: white; /* White text */
+            padding: 10px 20px; /* Padding */
+            text-align: center; /* Centered text */
+            text-decoration: none; /* No underline */
+            display: inline-block;
+            font-size: 16px; /* Font size */
+            margin: 4px 2px; /* Margin */
+            cursor: pointer; /* Pointer/hand icon */
+            border-radius: 8px; /* Rounded corners */
+            transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow */
+        }
+
+        .submit-button:hover {
+            background-color: #218838; /* Darker green on hover */
+            transform: scale(1.05); /* Slightly larger on hover */
+        }
+
+        .submit-button:active {
+            background-color: #1e7e34; /* Even darker green on click */
+            transform: scale(0.95); /* Slightly smaller on click */
+        }
+
+        .submit-button:focus {
+            outline: none; /* Remove focus outline */
+            box-shadow: 0 0 3px 2px rgba(40, 167, 69, 0.5); /* Focused shadow */
+            
+        }
